@@ -48,6 +48,35 @@
 ###############################################################################
 #### Binary Search
 #
-# find the element in the list, assumen the list areading in ascending order
+# find the element in the list, assumen the list areading in ascending order, and return the index of the element at the index
+# >>>>1. Initial the beginning of left and right, then find the mid of the list
+# >>>>2. judge the element searching for is left regim or right region. 
+#
+########################################################################
+def BinarySerchHelper ( lst, elt, left, right): 
+        # 0 <= left <= right < size(lst)
+        # Invariant
+    if (left > right): 
+        return None
+    else: 
+        mid = (left + right) // 2
+        if lst[mid] == elt:
+            return lst[mid]
+        elif lst[mid] < elt:
+            mid != 1
+            return BinarySerchHelper(lst,elt, mid,right)
+        else:
+            if lst[mid] > elt: 
+                mid != -1
+                return BinarySerchHelper(lst, elt, mid,right)
+
+##################################################################################
+#   improve the binary search region ---- Induction 
+#   >>>>> Time of bianry search ---- log2(n)  n is the list of the length
+#   
+
+        
+
+
 
 
