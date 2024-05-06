@@ -74,6 +74,46 @@ def BinarySerchHelper ( lst, elt, left, right):
 #   improve the binary search region ---- Induction 
 #   >>>>> Time of bianry search ---- log2(n)  n is the list of the length
 #   
+#####################################################################################
+#### Merge Sort Algorithm
+#
+####    MergeSort Pseudocode
+#  def mergersort ( array, left, right) 
+#   if (left >= right): 
+#       return
+#   if (left + 1 == right):
+#       if lst[left] > lst[right]:
+#           swap(lst, left, right)
+#        return
+#
+#### Merge Procedure Correctness Argument 
+#### Running of the Merge Sort 
+#       >> every element get into the tmp, then comparison for each element filling, i compare with j
+#### Cost of each level is n of the array size, n * # level of array, is the ########  n * log2(n)
+
+#  https://colab.research.google.com/drive/1wjnh0bRUZtH7OVi3Hmbm56BkDq-q-We5?usp=sharing         
+#
+#### pitfall and logarithms 
+#
+# the constant of the exponent cannot get rid of
+# in asympotic function,  the n of the constant cannot ge get rid off it
+#
+#   2^ n  is O 3^n; since 3^n = 2^(log2(3)n)
+#
+#### Asymptomatic Notation
+#
+
+
+
+#########################################################################################################
+#########################################################################################################
+# Data Strucuture: The Dynamic Array 
+#
+#   > insert data
+#   > Delete data
+#   > Modify data
+#
+
 
         
 
