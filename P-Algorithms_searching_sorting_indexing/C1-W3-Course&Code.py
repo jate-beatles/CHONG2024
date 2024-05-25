@@ -43,7 +43,19 @@ def geometric(p):
 
 #>>>>> T(n) = aT(n/b) + theta( n)   # if n>m 
 
+##############################################################################################
+#### Quick Sort 
+#
+#      quick sort ---- divide & connque sort 
+#   
+#   seperate into 2 group, [1-m]  & [m+1 - n]
 
+#### Partition ---- divide ---- choose the pivot - any thing smaller than the pivot is go left, which 
+#                                                   larger than the pivot go right, not sort yet
+#
+#>>> Pseudo Code for Quick Sort 
+#      
+#   def quicksort(A)
 
 
 
